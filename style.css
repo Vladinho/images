@@ -1,0 +1,34 @@
+body, html {
+    height: 100%;
+}
+
+.is-hidden {
+    display: none;
+}
+
+.modal-window {
+    padding: 20px;
+    position: fixed;
+    max-height: calc(100vh - 100px);
+    max-width: calc(100vw - 50px);
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.custom-img {
+    margin: 10px;
+    height: 200px;
+}
+
+.custom-img--is-active {
+    position: fixed;
+    max-height: calc(100vh - 100px);
+    height: auto;
+    object-fit: contain;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 1;
+}
